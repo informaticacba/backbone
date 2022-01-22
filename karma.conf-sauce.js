@@ -74,7 +74,7 @@ module.exports = function(config) {
     reporters: ['dots', 'saucelabs'],
     port: 9876,
     colors: true,
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_DEBUG,
     sauceLabs: {
       build: 'GH #' + process.env.BUILD_NUMBER + ' (' + process.env.BUILD_ID + ')',
       startConnect: true,
